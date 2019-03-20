@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-7430979-9', 'auto');
+      ga('set', 'anonymizeIp', true);
+
+      ga('require', 'cleanUrlTracker');
+      ga('require', 'impressionTracker');
+      ga('require', 'maxScrollTracker');
+      ga('require', 'mediaQueryTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'pageVisibilityTracker');
+
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    <script async src="autotrack.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="canonical" href="https://senky.github.io/httpproxy/">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
+
+    <meta name="description" content="phpBB Mixed Content Fixer Extension prevents Mixed-content errors by replacing HTTP images with secure HTTPS proxy.">
+    <title>phpBB Mixed Content Fixer</title>
+  </head>
+
+  <body>
+
+  <!-- N A V B A R -->
+  <nav class="navbar navbar-default navbar-expand-lg fixed-top custom-navbar">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="icon ion-md-menu"></span>
+		</button>
+		<span class="nav-logo-mobile"><span class="blue">phpBB</span> Mixed Content <b>Fixer</b></span>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+		  <div class="container">
+			<span class="nav-logo-desktop"><span class="blue">phpBB</span> Mixed Content <b>Fixer</b></span>
+			<ul class="navbar-nav ml-auto nav-right" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+			  <li class="nav-item nav-custom-link">
+				<a class="nav-link" href="#" title="Go to homepage.">Home <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+			  </li>
+			  <li class="nav-item nav-custom-link">
+				<a class="nav-link" href="#explanation" title="See explanation of the problem and how the extension solves it.">Explanation <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+			  </li>
+			  <li class="nav-item nav-custom-link">
+				<a class="nav-link" href="#demo" title="See demo of the extension.">Demo <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+			  </li>
+			  <li class="nav-item nav-custom-link">
+				<a class="nav-link" href="#pricing" title="See pricing options.">Pricing <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+			  </li>
+			  <li class="nav-item nav-custom-link btn btn-demo-small">
+				<a class="nav-link" href="#pricing" title="Buy Mixed Content Fixer Extension now.">Buy now <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+	  <!-- E N D  N A V B A R -->
+
+  
+  <!-- P R I C I N G -->
+  <section id="success">
+	<div class="container">
+		<div class="title-block">
+		<h2>Awesome!</h2>
+		<p>
+			Your copy of Mixed Content Fixer Extension is on it's way to you.<br><br>
+			Please, allow up to 1 hour to deliver the extension to you. If you have any questions, <a class="contact-btn" href="#">contact author</a>.<br><br>
+      Now sit down and enjoy, you have done a great decision!<br><br><br><br>
+      <small style="font-size: 0.75rem;">* if you do not receive your extension within 1 hour, <a class="contact-btn" href="#">contact author right away</a></small>
+    </p>
+		</div>
+	</div>
+	</section>
+	<!-- E N D  P R I C I N G -->
+
+<!-- H E R O -->
+<section id="hero">
+	<div class="container">
+		<div class="row">
+		<div class="col-lg-5 col-md-5 col-xs-5">
+			<img id="hero-img" class="img-fluid" src="images/phpbb-mixed-content-fixer.png" alt="phpBB Mixed Content Fixer">
+		</div>
+		<div class="col-md-7 content-box hero-content">
+			<span>phpBB</span>
+			<h1>Mixed Content <b>Fixer</b></h1>
+			<p>Give your users complete security. For good.</p>
+			<div><a href="#explanation" class="btn btn-regular" title="See explanation of the problem and how the extension solves it.">Learn more</a></div>
+		</div>
+		</div>
+	</div>
+</section>
+	<!-- E N D  H E R O -->
+
+	<!-- E N D  M A R K E T I N G -->
+	<section id="explanation">
+	<div class="container">
+		<div class="row">
+		<div class="col-md-5">
+			<div class="content-box">
+			<h2>What is the problem?</h2>
+			<p>You switched your board to secure HTTPS protocol, but your users post images from HTTP sources. That poses a threat to them, because an attacker can replace the image with his own content or use users' data against them.</p>
+			<a href="https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content" class="btn btn-regular" target="_blank" title="See detailed explanation">Read more</a>
+			</div>
+		</div>
+		<div class="col-md-7">
+			<img src="images/mixed-content.png" style="align-self: center" class="img-fluid" alt="Problem - mixed content warning">
+		</div>
+		</div>
+
+		<div class="row">
+		<div class="col-md-7">
+			<img src="images/http-proxy.jpg" style="align-self: center" class="img-fluid" alt="Solution - HTTP image proxy">
+		</div>
+		<div class="col-md-5">
+			<div class="content-box">
+			<h2>How to fix this?</h2>
+			<p>You as a domain owner should ensure that all content comes from secure origins. But this is difficult with forums, where users create the content. Luckily, there is a technique called HTTP proxy which solves the issue.</p>
+			</div>
+		</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-5">
+			<div class="content-box">
+				<h2>Final solution for forums</h2>
+				<p>This extension utilizes such a HTTP proxy, replacing insecure images with a special link leading to your own server which downloads and secures the image instead of user's browser. Whatever your users post, you make them safe all the time.</p>
+			</div>
+			</div>
+			<div class="col-md-7">
+				<img src="images/secure-content.png" style="align-self: center" class="img-fluid" alt="Desired state - secure content information">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-7">
+				<img src="images/any-style-any-language.png" style="align-self: center" class="img-fluid" alt="Solution - HTTP image proxy">
+			</div>
+			<div class="col-md-5">
+			<div class="content-box">
+				<h2>Any style, any language</h2>
+				<p>The extension works under the hood - you and your users won't notice anything, regardless of board style and language. Neat, isn't it?</p>
+			</div>
+			</div>
+		</div>
+		
+		
+		<div class="row">
+			<div class="col-md-5">
+			<div class="content-box">
+				<h2>Lazyloading?</h2>
+				<p>Using <a style="color:#8da2b5" href="https://www.phpbb.com/customise/db/extension/lazyload/" target="_blank">LazyLoad for post images extension</a>? Don't worry, you are covered. Another extension that isn't supported? Just contact author.</p>
+			</div>
+			</div>
+			<div class="col-md-7">
+				<img src="images/lazyload.png" style="align-self: center" class="img-fluid" alt="Desired state - secure content information">
+			</div>
+		</div>
+	</div>
+	</section>
+	<!-- E N D  M A R K E T I N G -->
+
+	<!-- T E S T I M O N I A L S -->
+	<section id="demo">
+	<div class="container">
+		<div class="title-block">
+		<h2>Need hands-on first?</h2>
+		<p>Sure, demo is available:</p>
+		<a href="https://phpbbhp.herokuapp.com" class="btn btn-regular" target="_blank" title="Launch demo of Mixed Content Fixer Extension">Launch demo</a>
+		</div>
+	</div>
+	</section>
+	<!-- E N D  T E S T I M O N I A L S -->
+
+
+  <!-- P R I C I N G -->
+  <section id="pricing">
+	<div class="container">
+		<div class="title-block">
+		<h2>Pricing</h2>
+		<p>Buy once, enjoy updates forever*.</p>
+		</div>
+		<div class="row">
+		<div class="col-md-4 offset-md-4">
+			<div class="pricing-box">
+			<h6>4.99€</h6>
+			<small>forever</small>
+			<p>Better secure than sorry.</p>
+			<div class="divider-light"></div>
+			<ul>
+				<li><i class="far fa-check-circle demo"></i>1 site license</li>
+				<li><i class="far fa-check-circle demo"></i>Installation support</li>
+			</ul>
+			<div class="text-center">
+				<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVKL8NMK3G6GL" title="Buy Standard License now"><img style="width: 100%; margin-top: 20px;" src="https://www.paypalobjects.com/webstatic/mktg/merchant_portal/button/buynow.en.png" alt="Buy Standard License"></a>
+			</div>
+			</div>
+		</div>
+	</div>
+	<div class="note-block">
+		<p>
+		* Applies to current minor phpBB version, currently 3.2.x. Make sure to check <a href="javascript:;" data-toggle="modal" data-target="#standardLicenseModal" title="See details of the license">license details</a> before purchase.
+		</p>
+		<p></p>
+	</div>
+</div>
+	</section>
+	<!-- E N D  P R I C I N G -->
+
+	<!-- C A L L  T O  A C T I O N -->
+	<section id="call-to-action">
+	<div class="container text-center">
+		<h2>Questions before purchase?</h2>
+		<div class="title-block">
+		<p>Don't hesitate to drop me a message.</p>
+		<a href="#" class="contact-btn btn btn-regular" title="Contact author using email">Contact author</a>
+		</div>
+	</div>
+	</section>
+	<!-- E N D  C A L L  T O  A C T I O N -->
+
+	<!--  F O O T E R  -->
+	<footer>
+	<div class="container">
+		<div class="row">
+		<div class="col-md-6 col-xs-12 offset-md-6">
+			<small>2018 &copy; All rights reserved. Template by <a href="https://www.behance.net/gallery/67279127/The-Seo-Company-Free-PSD-Template" target="blank">Diego Velázquez</a>.</small>
+		</div>
+		</div>
+	</div>
+	</footer>
+	<!--  E N D  F O O T E R  -->
+
+		  <div class="modal fade" id="standardLicenseModal" tabindex="-1" role="dialog" aria-labelledby="standardLicenseModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="standardLicenseModalLabel">Standard License</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  <h2>In short</h2>
+				  <ul>
+					<li>You <b>can</b> use extension on one website.</li>
+					<li>You <b>can</b> create another product for one client on one website.</li>
+					<li>You <b>cannot</b> use extension on multiple websites.</li>
+					<li>You <b>cannot</b> create another product for multiple clients and/or one client used on multiple website.</li>
+				  </ul>
+				  <h2>Full license</h2>
+				  <p><a href="license.txt" title="Download License now">Download full license</a></p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  
+			
+
+    <!-- External JavaScripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script>
+      var parts = [
+        'bWFpbHRvOg==', 'amFrdWJzZW5rbw==', 'QGdtYWls', 'LmNvbQ=='
+      ];
+      document.querySelectorAll('.contact-btn').forEach(function(elem) {
+        elem.href = parts.map(function(part) {
+          return atob(part);
+        }).join('')
+      });
+    </script>
+
+
+	</body>
+</html>
