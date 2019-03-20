@@ -30,4 +30,4 @@ or
 <br />
 
 -------------
-Also see: [Browser & Mobile Notifications Extension](https://senky.github.io/pushnotifications/)
+Also see: [Browser & Mobile Notifications Extension](https://senky.github.io/pushnotifications/), [Infinite Scroll Extension](https://senky.github.io/infinitescroll/)
